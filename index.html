@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vecna</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🟣 Vecna</h1>
+    <p>Create Discord Embeds Easily</p>
+
+    <input type="text" id="title" placeholder="Embed Title">
+
+    <textarea id="description" placeholder="Embed Description"></textarea>
+
+    <input type="text" id="image" placeholder="Image URL">
+
+    <label>Embed Color</label>
+    <input type="color" id="color" value="#5865F2">
+
+    <button onclick="previewEmbed()">Preview</button>
+    <button onclick="sendEmbed()">Send Embed</button>
+
+    <hr>
+
+    <div id="preview"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
